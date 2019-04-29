@@ -8,7 +8,7 @@ eureka:
     register-with-eureka: false
   instance:
     hostname: localhost
-    prefer-ip-address: false
+    prefer-ip-address: true
 spring:
   application:
     name: eureka-server
